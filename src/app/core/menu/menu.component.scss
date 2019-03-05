@@ -1,0 +1,16 @@
+ul{
+    display: flex;
+    justify-content: space-between;
+    padding-top: .5rem;
+    li{
+        list-style: none;
+        /* display: inline-block; */
+    }
+    a{
+        color: white;
+        text-transform: capitalize;
+        /*display: block; */
+        padding: 2rem;
+        text-decoration: none;
+    }
+}
