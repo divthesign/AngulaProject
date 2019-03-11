@@ -1,5 +1,5 @@
 .contenedor{
-    display: flex;
+    display: block;
     margin-top: 1rem;
     .text{
         width: 47%;
@@ -28,5 +28,10 @@
 button{
     position: relative;
     left: 45%;
+}
+.Angular-logo{
+    width: 50px;
+    position: relative;
+    left: calc(50% - 25px)
 }
 
