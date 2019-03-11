@@ -1,0 +1,30 @@
+h3{
+    font-size: 24px;
+    padding: 2rem 0 2rem 0;
+    background: rgb(151, 184, 192);
+    color: white;
+}
+.container{
+    width: 50%;
+    position: relative;
+    left: 25%;
+    border: 1px solid rgb(155, 155, 155);
+    padding: 2rem 0 2rem 0;
+    .item{
+        width: 80%;
+        background: rgb(189, 188, 188);
+        position: relative;
+        left: 10%;
+        padding: 2rem 0 2rem 0;
+        box-shadow: 3px 3px 5px black;
+        font-size: 18px;
+    }
+}
+
+input{
+    width: 70%;
+    height: 2rem;
+    position: relative;
+    left: 15%;
+    font-size: 24px;
+}

@@ -1,0 +1,19 @@
+<h3 [ngStyle]="{'text-align': centrado}">Tareas con Ng Switch y Ng Model</h3>
+
+<div class="container">
+
+  <div [ngStyle]="{'text-align': centrado}" [ngSwitch]="uno">
+     
+    <p *ngSwitchDefault>Elije un día de la semana</p>
+    <p class="item" *ngSwitchCase="13">Has elejido ---13---</p> 
+    <p class="item" *ngSwitchCase="'lunes'">Has elejido Lunes</p> 
+    <p class="item" *ngSwitchCase="'martes'">Has elejido Martes</p> 
+    <p class="item" *ngSwitchCase="'miercoles'">Has elejido Miércoles</p> 
+    <p class="item" *ngSwitchCase="'Jueves'">Has elejido Jueves</p> 
+    <p class="item" *ngSwitchCase="'viernes'">Has elejido Viernes</p> 
+    
+
+  </div>
+  
+   <input type="text" [(ngModel)]="uno">
+</div>
